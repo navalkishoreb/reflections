@@ -50,3 +50,8 @@ How might using version control make you more confident to make changes that cou
 
  This way I only have to worry about new changes that I introduce.
  --------------------------------------------------------------------------------
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would normally use it for managing my source code.
+--------------------------------------------------------------------------------
