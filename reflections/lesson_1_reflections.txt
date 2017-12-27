@@ -36,3 +36,10 @@ Why do you think some version control systems, like Git, allow saving multiple f
 
  Whereas, Google Docs are for publishing documents. A single document represent a single book or a report. If we create a new file for each chapter for that book, it would result into nightmare to introduce any changes across whole book. Even a small formatting changes will be cumbersome.
  --------------------------------------------------------------------------------
+
+How can you use the commands git log and git diff to view the history of files?
+ git log would list all commit messages with their author and timestamp.
+ git diff would produce a comparison between two commit ids.
+
+ So, one could find commit ids using git log  and use git diff to compare changes.
+ --------------------------------------------------------------------------------
