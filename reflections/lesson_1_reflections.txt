@@ -9,3 +9,10 @@ We can compare and ponder what might have caused problem.
 
 Like in example space and spacr.
 --------------------------------------------------------------------------------
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Versioning entire history creates a timeline for the product. It helps in jumping to desired version and investigate backward compatibility issues with older versions in use.
+It also reveals persons and exact changes that have been performed.
+It also act as a backup and restore if some feature was removed in current version, but now is a requirement in new versions; we can compare and extract those required changes.
+--------------------------------------------------------------------------------
