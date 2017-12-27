@@ -29,3 +29,10 @@ Cons:
  -developer need to make judgment how large or small a commit should be. This may raise concern over other companions and their perspective.
  -developer may forget committing at regular intervals and cause two different feature being committed in single commit, resulting higher chances of complex merge conflicts.
  --------------------------------------------------------------------------------
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+ Git is designed for controlling source code. A feature may introduce numerous classes and interfaces to make more robust and clean implementation. And  most probably a certain functionality be used elsewhere in the whole source code.
+
+ Whereas, Google Docs are for publishing documents. A single document represent a single book or a report. If we create a new file for each chapter for that book, it would result into nightmare to introduce any changes across whole book. Even a small formatting changes will be cumbersome.
+ --------------------------------------------------------------------------------
