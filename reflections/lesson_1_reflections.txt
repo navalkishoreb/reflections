@@ -43,3 +43,10 @@ How can you use the commands git log and git diff to view the history of files?
 
  So, one could find commit ids using git log  and use git diff to compare changes.
  --------------------------------------------------------------------------------
+
+How might using version control make you more confident to make changes that could break something?
+
+ I feel pretty comfortable in introducing changes. And check out if those are working to desired effect. I can begin with performing small concrete steps and committing them. And gradually try refactoring or introducing new lines of codes, run the code, see if it produces desired effect if yes I commit those changes if not then I revert back to previous commit using checkout command.
+
+ This way I only have to worry about new changes that I introduce.
+ --------------------------------------------------------------------------------
