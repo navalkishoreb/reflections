@@ -1,0 +1,11 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+diff command displayed only the lines which have been modified in two version of files.
+This helped in ignoring common text or code.
+We only have to concentrate on changes that may have raised bug, since it was working as desired in the previous version.
+
+Line by line comparison helps in evaluating changes that have been made.
+We can compare and ponder what might have caused problem.
+
+Like in example space and spacr.
+--------------------------------------------------------------------------------
