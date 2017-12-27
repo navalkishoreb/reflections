@@ -16,3 +16,16 @@ Versioning entire history creates a timeline for the product. It helps in jumpin
 It also reveals persons and exact changes that have been performed.
 It also act as a backup and restore if some feature was removed in current version, but now is a requirement in new versions; we can compare and extract those required changes.
 --------------------------------------------------------------------------------
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+ -We would have more logical checkpoint.
+ -Source code would be able to build without causing compile-time exceptions.
+ -It provide flexibility to create big and small commits separating their concern.
+  As in committing one line bug fix to multiple files for a feature.
+
+Cons:
+ -developer need to make judgment how large or small a commit should be. This may raise concern over other companions and their perspective.
+ -developer may forget committing at regular intervals and cause two different feature being committed in single commit, resulting higher chances of complex merge conflicts.
+ --------------------------------------------------------------------------------
