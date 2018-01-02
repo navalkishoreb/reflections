@@ -29,3 +29,7 @@ How do the diagrams help you visualize the branch structure?
   Diagrams help me diagnose reachability of commits under certain branches.
   It reveals from which commit have all branches have diverged, signifying what functionality to expect in particular branch.
   ------------------------------------------------------------------------------------------------
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  After merging we are able to access commits of both branches from this newly merged branch. In diagram we ought to show what commits were introduced from either branch.
+  ------------------------------------------------------------------------------------------------
