@@ -14,3 +14,7 @@ How is the staging area different from the working directory and the repository?
   Staging area signifies the content or files that will be committed or saved in the commit version.
   Concept of staging provides very strong control over which files can be tracked are needed to be tracked without being bothered about other files that may exist in working directory.
   ------------------------------------------------------------------------------------------------
+
+How can you use the staging area to make sure you have one commit per logical change?
+  So, we may have perform changes in multiple files. We add only those file to staging area which belongs to one logical change. While considering these staged files will be bundled up in a single commit.
+  ------------------------------------------------------------------------------------------------
