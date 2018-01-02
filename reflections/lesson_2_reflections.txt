@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+  The moment we init a directory as git repository it marks all files and sub folders inside current directories as untracked files.
+  We need to init repository to inform git system so that is can start tracking and versioning the directory.
+  ------------------------------------------------------------------------------------------------
