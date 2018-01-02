@@ -2,3 +2,15 @@ What happens when you initialize a repository? Why do you need to do it?
   The moment we init a directory as git repository it marks all files and sub folders inside current directories as untracked files.
   We need to init repository to inform git system so that is can start tracking and versioning the directory.
   ------------------------------------------------------------------------------------------------
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+  Working directory is the actual directory in the file system which we are supposed to track.
+  After we initialize git in our working directory it also becomes a repository, and now git is able to track changes occurring in files and  sub-directories.
+  The moment we update any file or create any file, git will recognise changes. (Use git status)
+  If it is a new file it will be shown as untracked files.
+  And it is a tracked file it will shown as not staged for commit.
+
+  Staging area signifies the content or files that will be committed or saved in the commit version.
+  Concept of staging provides very strong control over which files can be tracked are needed to be tracked without being bothered about other files that may exist in working directory.
+  ------------------------------------------------------------------------------------------------
