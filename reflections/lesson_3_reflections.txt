@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  To share our findings we can save our data on a cloud host. This cloud link will always be available to anyone who has access to the link.
+  And the files shared over this link will be the up-to-date version of content collaborate with other members of the team.
